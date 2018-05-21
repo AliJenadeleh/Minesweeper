@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jandil.minesweeper.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/tbmain" android:id="@+id/tbMain" />
+
+<TableLayout
+    android:id="@+id/tblMines"
+    android:layout_below="@+id/tbMain"
+    android:shrinkColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableRow>
+    <ImageButton android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+    <ImageButton android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+    <ImageButton android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+    <ImageButton android:id="@+id/btn4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+    <ImageButton android:id="@+id/btn5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+    <ImageButton android:id="@+id/btn6"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/IButtonMaxHeight"/>
+</TableRow>
+
+<TableRow>
+        <ImageButton android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn12"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+    </TableRow>
+
+<TableRow>
+        <ImageButton android:id="@+id/btn13"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn15"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn16"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn17"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn18"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+    </TableRow>
+
+<TableRow>
+        <ImageButton android:id="@+id/btn19"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn20"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn21"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn22"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn23"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn24"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+    </TableRow>
+
+<TableRow>
+        <ImageButton android:id="@+id/btn25"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn26"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn27"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn28"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn29"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn30"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+    </TableRow>
+
+<TableRow>
+        <ImageButton android:id="@+id/btn31"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn32"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn33"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn34"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn35"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+        <ImageButton android:id="@+id/btn36"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/IButtonMaxHeight"/>
+    </TableRow>
+
+</TableLayout>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_below="@+id/tblMines"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:textSize="35sp"
+    android:text="ReStart"
+    android:id="@+id/btnReStrat"
+    android:onClick="btnRestrat_OnClick"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+   android:textSize="35sp"
+   android:text="Exit"
+   android:id="@+id/btnExit"
+    android:onClick="btnExit_OnClick"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" />
+
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/txtTimer"
+    android:layout_alignParentLeft="true"
+    android:padding="6dp"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:text="HH:MM:SS"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" />
+
+    <TextView
+        android:textSize="35sp"
+        android:text="Win"
+        android:id="@+id/txtResult"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+<TextView
+    android:id="@+id/txtFlags"
+    android:layout_alignParentRight="true"
+    android:padding="6dp"
+    android:textSize="25sp"
+    android:gravity="center"
+    android:text="Flags : 5"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" />
+</RelativeLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
+</FrameLayout>
